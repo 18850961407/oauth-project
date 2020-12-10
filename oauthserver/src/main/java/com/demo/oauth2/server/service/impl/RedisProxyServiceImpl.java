@@ -26,6 +26,10 @@ import org.springframework.util.CollectionUtils;
 import com.alibaba.fastjson.JSON;
 import com.demo.oauth2.server.service.RedisProxyService;
 
+/**
+* @author liyz
+* @Description TODO
+*/
 @Service
 public class RedisProxyServiceImpl implements RedisProxyService{
 	@Autowired

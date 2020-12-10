@@ -1,19 +1,26 @@
 package com.demo.oauth2.server.service.impl;
 
+import com.demo.oauth2.server.mapper.OauthClientMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.demo.oauth2.server.entity.TOAuth2Client;
-import com.demo.oauth2.server.entity.TOAuth2ClientCriteria;
-import com.demo.oauth2.server.mapper.TOAuth2ClientMapper;
+import com.demo.oauth2.server.entity.OauthClient;
+import com.demo.oauth2.server.entity.OauthClientCriteria;
+
 import com.demo.oauth2.server.service.OauthClientService;
 import com.demo.oauth2.server.service.RedisProxyService;
 
+import javax.annotation.Resource;
+
+/**
+* @author liyz
+* @Description TODO
+*/
 @Service
 public class OauthClientServiceImpl implements OauthClientService{
 
-	@Autowired
-	private TOAuth2ClientMapper oAuth2ClientMapper;
+	@Resource
+	private OauthClientMapper oauthClientMapper;
 	
 	@Autowired
 	private RedisProxyService redisService;
@@ -22,7 +29,7 @@ public class OauthClientServiceImpl implements OauthClientService{
 	public boolean checkClient(String clientId) {
 		boolean res=false;
 		
-		TOAuth2Client client=oAuth2ClientMapper.selectByPrimaryKey(clientId);
+		OauthClient client=oauthClientMapper.selectByPrimaryKey(clientId);
 		if(client!=null&&client.getClientId().equals(clientId))
 		{
 			res= true;
@@ -33,10 +40,9 @@ public class OauthClientServiceImpl implements OauthClientService{
 	@Override
 	public boolean checkClient(String clientId, String clientKey) {
 		boolean res=false;
-		TOAuth2ClientCriteria example=new TOAuth2ClientCriteria();
-		
+		OauthClientCriteria example=new OauthClientCriteria();
 		example.or().andClientIdEqualTo(clientId).andClientSecretEqualTo(clientKey);
-		TOAuth2Client client= oAuth2ClientMapper.selectByExample(example).get(0);
+		OauthClient client= oauthClientMapper.selectByExample(example).get(0);
 		if(client!=null&&clientId.equals(client.getClientId()))
 		{
 			res=true;

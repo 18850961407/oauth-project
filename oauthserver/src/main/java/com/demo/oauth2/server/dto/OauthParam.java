@@ -2,6 +2,10 @@ package com.demo.oauth2.server.dto;
 
 import java.io.Serializable;
 
+/**
+* @author liyz
+* @Description TODO
+*/
 public class OauthParam implements Serializable{
 
 	/**

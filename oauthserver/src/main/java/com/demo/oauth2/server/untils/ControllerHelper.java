@@ -6,6 +6,10 @@ import org.apache.oltu.oauth2.common.message.OAuthResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
+/**
+* @author liyz
+* @Description TODO
+*/
 public class ControllerHelper {
 
 	private ControllerHelper() {

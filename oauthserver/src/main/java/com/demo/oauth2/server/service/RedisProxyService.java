@@ -10,6 +10,10 @@ import org.springframework.data.redis.core.BoundListOperations;
 import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.SessionCallback;
 
+/**
+* @author liyz
+* @Description TODO
+*/
 public interface RedisProxyService {
 
 	public void put(String key, String value);

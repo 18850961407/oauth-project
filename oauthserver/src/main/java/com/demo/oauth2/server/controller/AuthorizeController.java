@@ -111,7 +111,7 @@ public class AuthorizeController {
 			
 			
 		} catch (Exception e) {
-			logger.error(e.getCause().getMessage(),e);
+			logger.error(e.getMessage(),e);
 		}
 		return null;
 	}

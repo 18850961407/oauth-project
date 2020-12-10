@@ -26,7 +26,7 @@ import org.apache.oltu.oauth2.common.OAuthProviderType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.demo.oauth2.clinet.dto.OAuthRegParams;
+import com.demo.oauth2.client.dto.OAuthRegParams;
 import com.demo.oauth2.exception.ApplicationException;
 import com.demo.oauth2.server.dto.OauthParam;
 

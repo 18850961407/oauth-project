@@ -1,10 +1,9 @@
 package com.demo.oauth2.server.service;
 
 /**
- * 
- * @author hlin
- *
- */
+* @author liyz
+* @Description TODO
+*/
 public interface OauthClientService {
 
 	/**

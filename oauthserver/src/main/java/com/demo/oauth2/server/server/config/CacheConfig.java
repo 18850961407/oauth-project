@@ -13,44 +13,48 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 import redis.clients.jedis.JedisPoolConfig;
 
+/**
+* @author liyz
+* @Description TODO
+*/
 @Configuration
 @EnableCaching
 public class CacheConfig {
 	        	
 	  @Autowired
-		private RedisConfig redisConfig;
+	  private RedisConfig redisConfig;
 		
-		@Bean
-		JedisConnectionFactory jedisConnectionFactory() {
-			JedisPoolConfig poolConfig = new JedisPoolConfig();
-			poolConfig.setMaxTotal(redisConfig.getMaxActive());    
-			poolConfig.setMaxIdle(redisConfig.getMaxIdle());    
-	        poolConfig.setMaxWaitMillis(redisConfig.getMaxWait());    
-	        poolConfig.setTestOnBorrow(true);   
-			JedisConnectionFactory factory = new JedisConnectionFactory();
-			factory.setHostName(redisConfig.getHost());
-			factory.setPort(redisConfig.getPort());
-			factory.setPassword(redisConfig.getPassword());
-			factory.setUsePool(true);
-			factory.setDatabase(redisConfig.getRedisIndex());
-			return factory;
-		}
+	@Bean
+	JedisConnectionFactory jedisConnectionFactory() {
+		JedisPoolConfig poolConfig = new JedisPoolConfig();
+		poolConfig.setMaxTotal(redisConfig.getMaxActive());
+		poolConfig.setMaxIdle(redisConfig.getMaxIdle());
+		poolConfig.setMaxWaitMillis(redisConfig.getMaxWait());
+		poolConfig.setTestOnBorrow(true);
+		JedisConnectionFactory factory = new JedisConnectionFactory();
+		factory.setHostName(redisConfig.getHost());
+		factory.setPort(redisConfig.getPort());
+		factory.setPassword(redisConfig.getPassword());
+		factory.setUsePool(true);
+		factory.setDatabase(redisConfig.getRedisIndex());
+		return factory;
+	}
 
-		@Bean
-		RedisTemplate<Object, Object> redisTemplate() {
-			RedisTemplate<Object, Object> redisTemplate = new RedisTemplate<>();
-			redisTemplate.setConnectionFactory(jedisConnectionFactory());
-			StringRedisSerializer stringSer = new StringRedisSerializer();
-			redisTemplate.setKeySerializer(stringSer);
-			redisTemplate.setValueSerializer(stringSer);
-			redisTemplate.setHashKeySerializer(stringSer);
-			redisTemplate.setHashValueSerializer(stringSer);
-			return redisTemplate;
-		}
+	@Bean
+	RedisTemplate<Object, Object> redisTemplate() {
+		RedisTemplate<Object, Object> redisTemplate = new RedisTemplate<>();
+		redisTemplate.setConnectionFactory(jedisConnectionFactory());
+		StringRedisSerializer stringSer = new StringRedisSerializer();
+		redisTemplate.setKeySerializer(stringSer);
+		redisTemplate.setValueSerializer(stringSer);
+		redisTemplate.setHashKeySerializer(stringSer);
+		redisTemplate.setHashValueSerializer(stringSer);
+		return redisTemplate;
+	}
 
-		@Bean
-		public CacheManager cacheManager() {
-			return new RedisCacheManager(redisTemplate());
-			
-		}
+	@Bean
+	public CacheManager cacheManager() {
+		return new RedisCacheManager(redisTemplate());
+
+	}
 }
