@@ -18,7 +18,7 @@ spring:
   redis: 
     host: 127.0.0.1
     port: 6379
-    password: 
+    password: 123456
     defaultExpireDay: 45  
     redisIndex: 0
     # 最小连接数目
@@ -29,7 +29,7 @@ spring:
     maxWait: 1000
     #连接是否可用
     testOnBorrow: true
-    
+
   http:  
       encoding.charset: UTF-8  
       encoding.enable: true  
@@ -38,4 +38,8 @@ spring:
   mvc: 
       view:  
           prefix: /WEB-INF/jsp/  
-          suffix: .jsp  
+          suffix: .jsp
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.demo.oauth2.*.entity

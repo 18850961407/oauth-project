@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="mapper.UserInfoMapper" >
+<mapper namespace="com.demo.oauth2.server.mapper.UserInfoMapper" >
   <resultMap id="BaseResultMap" type="com.demo.oauth2.server.entity.UserInfo" >
     <id column="id" property="id" jdbcType="VARCHAR" />
     <result column="username" property="username" jdbcType="VARCHAR" />
@@ -76,7 +76,7 @@
       distinct
     </if>
     <include refid="Base_Column_List" />
-    from t_user_info
+    from user_info
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
@@ -87,21 +87,21 @@
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
     select 
     <include refid="Base_Column_List" />
-    from t_user_info
+    from user_info
     where id = #{id,jdbcType=VARCHAR}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
-    delete from t_user_info
+    delete from user_info
     where id = #{id,jdbcType=VARCHAR}
   </delete>
   <delete id="deleteByExample" parameterType="com.demo.oauth2.server.entity.UserInfoCriteria" >
-    delete from t_user_info
+    delete from user_info
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
   <insert id="insert" parameterType="com.demo.oauth2.server.entity.UserInfo" >
-    insert into t_user_info (id, username, password, 
+    insert into user_info (id, username, password,
       salt, create_time, update_time
       )
     values (#{id,jdbcType=VARCHAR}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
@@ -109,7 +109,7 @@
       )
   </insert>
   <insert id="insertSelective" parameterType="com.demo.oauth2.server.entity.UserInfo" >
-    insert into t_user_info
+    insert into user_info
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >
         id,
@@ -152,13 +152,13 @@
     </trim>
   </insert>
   <select id="countByExample" parameterType="com.demo.oauth2.server.entity.UserInfoCriteria" resultType="java.lang.Integer" >
-    select count(*) from t_user_info
+    select count(*) from user_info
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
   </select>
   <update id="updateByExampleSelective" parameterType="map" >
-    update t_user_info
+    update user_info
     <set >
       <if test="record.id != null" >
         id = #{record.id,jdbcType=VARCHAR},
@@ -184,7 +184,7 @@
     </if>
   </update>
   <update id="updateByExample" parameterType="map" >
-    update t_user_info
+    update user_info
     set id = #{record.id,jdbcType=VARCHAR},
       username = #{record.username,jdbcType=VARCHAR},
       password = #{record.password,jdbcType=VARCHAR},
@@ -196,7 +196,7 @@
     </if>
   </update>
   <update id="updateByPrimaryKeySelective" parameterType="com.demo.oauth2.server.entity.UserInfo" >
-    update t_user_info
+    update user_info
     <set >
       <if test="username != null" >
         username = #{username,jdbcType=VARCHAR},
@@ -217,7 +217,7 @@
     where id = #{id,jdbcType=VARCHAR}
   </update>
   <update id="updateByPrimaryKey" parameterType="com.demo.oauth2.server.entity.UserInfo" >
-    update t_user_info
+    update user_info
     set username = #{username,jdbcType=VARCHAR},
       password = #{password,jdbcType=VARCHAR},
       salt = #{salt,jdbcType=VARCHAR},

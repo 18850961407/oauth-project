@@ -18,16 +18,16 @@ $(function(){
 
 	//判读是否登陆
 	var token = getCookie("token");
-	if(token==null && token!='')//已经登录
+	if(token===null || token=='')//未登陆
 	{
 		$("#logindiv").show();
 		$("#oauthdiv").hide();
-		$("#token").val(token);
 	}
 	else
 	{		
 		$("#logindiv").hide();
 		$("#oauthdiv").show();
+        $("#token").val(token);
 	}
 	
 	$("#loginAndOauth").click(function(){
@@ -47,7 +47,7 @@ $(function(){
                     	//写缓存                    	
                     	setCookie("token",data.msg,1000000);
                     	$("#token").val(data.msg);
-                    	$("#authform").submit();
+                    	$("#oauth").click();
                 	}
                     else{
                     	alert(data.msg);
@@ -71,6 +71,7 @@ function getCookie(name)
      return null;
     }
 } 
+
 //设置自定义过期时间cookie
 function setCookie(name,value,time)
 {
