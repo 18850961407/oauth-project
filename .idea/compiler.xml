@@ -6,13 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="oauth-common-data" />
+        <module name="oauth-common-model" />
+        <module name="oauth-common-rabbitmq" />
+        <module name="oauth-server" />
+        <module name="oauth-web" />
         <module name="oauthclient" />
         <module name="oauthresource" />
         <module name="oauthserver" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="oauth-common" target="1.8" />
+      <module name="oauth-common-data" target="1.8" />
+      <module name="oauth-common-model" target="1.8" />
+      <module name="oauth-common-rabbitmq" target="1.8" />
+      <module name="oauth-parent" target="1.8" />
+      <module name="oauth-server" target="1.8" />
+      <module name="oauth-web" target="1.8" />
       <module name="oauthclient" target="1.8" />
+      <module name="oauthcommonmodel" target="1.8" />
+      <module name="oauthparent" target="1.5" />
       <module name="oauthresource" target="1.8" />
       <module name="oauthserver" target="1.8" />
       <module name="springboot-oauth2" target="1.5" />

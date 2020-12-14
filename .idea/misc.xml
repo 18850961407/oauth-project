@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/oauth-server" />
+    <file type="web" url="file://$PROJECT_DIR$/oauth-web" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -7,7 +11,13 @@
         <option value="$PROJECT_DIR$/oauthserver/pom.xml" />
         <option value="$PROJECT_DIR$/oauthresource/pom.xml" />
         <option value="$PROJECT_DIR$/oauthclient/pom.xml" />
+        <option value="$PROJECT_DIR$/oauth-common/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

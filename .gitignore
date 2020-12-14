@@ -118,6 +118,7 @@ license.dat
 logs/
 
 
-ilife-customer/.gitignore
-ilife-common/.gitignore
-ilife-server/.gitignore
+oauth-common/.gitignore
+oauth-parent/.gitignore
+oauth-web/.gitignore
+oauth-server/.gitignore
