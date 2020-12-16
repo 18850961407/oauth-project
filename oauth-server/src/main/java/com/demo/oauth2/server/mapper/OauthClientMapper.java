@@ -2,11 +2,12 @@ package com.demo.oauth2.server.mapper;
 
 import java.util.List;
 
-import com.demo.oauth2.server.entity.OauthClientCriteria;
+
+import com.demo.oauth2.entity.OauthClient;
+import com.demo.oauth2.entity.OauthClientCriteria;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
-import com.demo.oauth2.server.entity.OauthClient;
 
 @Mapper
 public interface OauthClientMapper {

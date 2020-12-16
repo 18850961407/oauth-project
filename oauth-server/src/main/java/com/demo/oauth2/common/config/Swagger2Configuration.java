@@ -25,7 +25,7 @@ public class Swagger2Configuration {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(buildApiInf())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.demo.oauth2.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.demo.oauth2.*.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }

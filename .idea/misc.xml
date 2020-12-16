@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/oauth-server" />
     <file type="web" url="file://$PROJECT_DIR$/oauth-web" />
+    <type id="Spring" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

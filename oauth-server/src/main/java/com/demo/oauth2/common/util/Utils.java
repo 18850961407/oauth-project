@@ -19,16 +19,15 @@
  * limitations under the License.
  */
 
-package com.demo.oauth2.common.untils;
+package com.demo.oauth2.common.util;
 
 
+import com.demo.oauth2.dto.OAuthRegParams;
+import com.demo.oauth2.dto.OauthParam;
+import com.demo.oauth2.exception.ApplicationException;
 import org.apache.oltu.oauth2.common.OAuthProviderType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
-import com.demo.oauth2.client.dto.OAuthRegParams;
-import com.demo.oauth2.exception.ApplicationException;
-import com.demo.oauth2.server.dto.OauthParam;
 
 import javax.servlet.ServletContext;
 import javax.servlet.http.Cookie;

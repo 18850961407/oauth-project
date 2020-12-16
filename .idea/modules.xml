@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/oauth-common/oauth-common-data/oauth-common-data.iml" filepath="$PROJECT_DIR$/oauth-common/oauth-common-data/oauth-common-data.iml" />
       <module fileurl="file://$PROJECT_DIR$/oauth-common/oauth-common-model/oauth-common-model.iml" filepath="$PROJECT_DIR$/oauth-common/oauth-common-model/oauth-common-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/oauth-common/oauth-common-rabbitmq/oauth-common-rabbitmq.iml" filepath="$PROJECT_DIR$/oauth-common/oauth-common-rabbitmq/oauth-common-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth-common/oauth-common-redis/oauth-common-redis.iml" filepath="$PROJECT_DIR$/oauth-common/oauth-common-redis/oauth-common-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth-common/oauth-common-util/oauth-common-util.iml" filepath="$PROJECT_DIR$/oauth-common/oauth-common-util/oauth-common-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/oauth-parent/oauth-parent.iml" filepath="$PROJECT_DIR$/oauth-parent/oauth-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/oauth-server/oauth-server.iml" filepath="$PROJECT_DIR$/oauth-server/oauth-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/oauth-web/oauth-web.iml" filepath="$PROJECT_DIR$/oauth-web/oauth-web.iml" />

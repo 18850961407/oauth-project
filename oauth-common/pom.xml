@@ -14,6 +14,8 @@
 		<module>oauth-common-model</module>
         <module>oauth-common-rabbitmq</module>
 		<module>oauth-common-data</module>
-	</modules>
+        <module>oauth-common-util</module>
+        <module>oauth-common-redis</module>
+    </modules>
 	<packaging>pom</packaging>
 </project>

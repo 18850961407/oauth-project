@@ -1,8 +1,8 @@
 package com.demo.oauth2.client.controller;
 
 
-import com.demo.oauth2.server.dto.OauthParam;
-import com.demo.oauth2.common.untils.Utils;
+import com.demo.oauth2.common.util.Utils;
+import com.demo.oauth2.dto.OauthParam;
 import org.apache.oltu.oauth2.client.OAuthClient;
 import org.apache.oltu.oauth2.client.URLConnectionClient;
 import org.apache.oltu.oauth2.client.request.OAuthClientRequest;
@@ -31,7 +31,7 @@ public class RedirectController {
 	 private Logger logger = LoggerFactory.getLogger(RedirectController.class);
 
 	 @Autowired
-	    private Utils utils;
+	 private Utils utils;
 	 
 	@RequestMapping(value = "/redirect", method = RequestMethod.GET)
 	public ModelAndView gettoken(@ModelAttribute("oauthParams") OauthParam oauthParams,

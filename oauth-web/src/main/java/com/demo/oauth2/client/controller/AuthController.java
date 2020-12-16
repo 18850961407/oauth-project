@@ -1,6 +1,6 @@
 package com.demo.oauth2.client.controller;
 
-import com.demo.oauth2.server.dto.OauthParam;
+import com.demo.oauth2.dto.OauthParam;
 import org.apache.oltu.oauth2.client.request.OAuthClientRequest;
 import org.apache.oltu.oauth2.common.message.types.ResponseType;
 import org.slf4j.Logger;

@@ -326,6 +326,7 @@ public class RedisProxyServiceImpl implements RedisProxyService{
 
 	}
 
+	@Override
 	public void set(String key, int i, String value) {
 		redisTemplate.opsForList().getOperations().expire(key, defaultExpireTime, TimeUnit.DAYS);
 		redisTemplate.boundListOps(key).set(i, value);

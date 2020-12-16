@@ -7,6 +7,7 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.demo.oauth2.common.util.ControllerHelper;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.oltu.oauth2.as.issuer.MD5Generator;
 import org.apache.oltu.oauth2.as.issuer.OAuthIssuerImpl;
@@ -29,7 +30,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.demo.oauth2.common.constant.ErrorConstants;
 import com.demo.oauth2.server.service.OauthClientService;
-import com.demo.oauth2.common.untils.ControllerHelper;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -75,7 +75,7 @@ public class AuthorizeController {
 			//校验client信息
 			if(!oauthClientService.checkClient(clientId))
 			{
-				return ControllerHelper.getResponseEntity(HttpServletResponse.SC_BAD_REQUEST, OAuthError.TokenResponse.INVALID_CLIENT, ErrorConstants.ERROR_CLIENT_MSG);				
+				return ControllerHelper.getResponseEntity(HttpServletResponse.SC_BAD_REQUEST, OAuthError.TokenResponse.INVALID_CLIENT, ErrorConstants.ERROR_CLIENT_MSG);
 			}
 			//获取登陆信息
 			//已经登录校验内部token信息,没有登陆，校验登陆信息

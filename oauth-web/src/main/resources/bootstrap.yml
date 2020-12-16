@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: oauth-web
+  main:
+    allow-bean-definition-overriding: true
+  profiles:
+    active: @env@
+
+logging:
+  config: classpath:logback-spring.xml
+  file:
+    path: /data/logs/oauth-web
+    name: oauth-web
+
+---
+#本地环境配置
+spring:
+  profiles: local
+
+---
+#测试环境配置
+spring:
+  profiles: dev
+
+---
+#生产环境配置
+spring:
+  profiles: prod
+

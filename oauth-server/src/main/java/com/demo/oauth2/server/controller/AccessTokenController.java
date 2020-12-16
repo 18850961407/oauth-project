@@ -3,6 +3,7 @@ package com.demo.oauth2.server.controller;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.demo.oauth2.common.util.ControllerHelper;
 import org.apache.oltu.oauth2.as.issuer.MD5Generator;
 import org.apache.oltu.oauth2.as.issuer.OAuthIssuer;
 import org.apache.oltu.oauth2.as.issuer.OAuthIssuerImpl;
@@ -22,7 +23,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.demo.oauth2.common.constant.ErrorConstants;
 import com.demo.oauth2.server.service.OauthClientService;
-import com.demo.oauth2.common.untils.ControllerHelper;
 
 @Controller
 @RequestMapping("/Oauth")

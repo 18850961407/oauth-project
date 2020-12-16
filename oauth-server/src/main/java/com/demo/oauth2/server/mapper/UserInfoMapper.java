@@ -2,11 +2,11 @@ package com.demo.oauth2.server.mapper;
 
 import java.util.List;
 
+import com.demo.oauth2.entity.UserInfo;
+import com.demo.oauth2.entity.UserInfoCriteria;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
-import com.demo.oauth2.server.entity.UserInfo;
-import com.demo.oauth2.server.entity.UserInfoCriteria;
 
 @Mapper
 public interface UserInfoMapper {

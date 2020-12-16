@@ -1,4 +1,4 @@
-package com.demo.oauth2.common.untils;
+package com.demo.oauth2.common.util;
 
 import org.apache.oltu.oauth2.as.response.OAuthASResponse;
 import org.apache.oltu.oauth2.common.exception.OAuthSystemException;

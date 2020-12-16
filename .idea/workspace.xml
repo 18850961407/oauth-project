@@ -1,22 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3369436c-9f85-48f5-918a-9d28dc5b9939" name="Default" comment="">
+    <list default="true" id="83db3ae3-6570-4f67-9662-0fbceb6bc925" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/log.path_IS_UNDEFINED/log.name_IS_UNDEFINED.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oauth-common/oauth-common-redis/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oauth-common/oauth-common-redis/src/main/java/com/demo/oauth2/config/RedisConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oauth-common/oauth-common-util/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/OauthServerApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oauth-server/src/main/resources/application-local.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oauth-server/src/main/resources/bootstrap.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oauth-server/src/main/resources/logback-spring.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oauth-web/src/main/java/com/demo/oauth2/common/interceptor/ControllerInterceptor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oauth-web/src/main/java/com/demo/oauth2/common/util/Utils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oauth-web/src/main/resources/application-local.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oauth-web/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oauth-web/src/main/resources/bootstrap.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oauth-web/src/main/resources/logback-spring.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oauth-web/src/main/resources/static/css/client.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oauth-web/src/main/resources/static/js/clientjs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oauth-web/src/main/resources/static/js/loginjs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oauth-web/src/main/resources/static/js/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oauth-web/src/main/resources/static/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oauth-web/src/main/resources/templates/client.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oauth-web/src/main/resources/templates/clientoauth.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oauth-web/src/main/resources/templates/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oauth-web/src/main/resources/templates/test.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/oauth-common/oauth-common-model/pom.xml" afterPath="$PROJECT_DIR$/oauth-common/oauth-common-model/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/oauth-common/pom.xml" afterPath="$PROJECT_DIR$/oauth-common/pom.xml" />
       <change beforePath="$PROJECT_DIR$/oauth-server/pom.xml" afterPath="$PROJECT_DIR$/oauth-server/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/OauthserverApplication.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/common/config/CacheConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/common/config/RedisConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/common/config/Swagger2Configuration.java" afterPath="$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/common/config/Swagger2Configuration.java" />
+      <change beforePath="$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/common/untils/ControllerHelper.java" afterPath="$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/common/util/ControllerHelper.java" />
+      <change beforePath="$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/common/untils/Utils.java" afterPath="$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/common/util/Utils.java" />
+      <change beforePath="$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/server/controller/AccessTokenController.java" afterPath="$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/server/controller/AccessTokenController.java" />
+      <change beforePath="$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/server/controller/AuthorizeController.java" afterPath="$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/server/controller/AuthorizeController.java" />
+      <change beforePath="$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/server/mapper/OauthClientMapper.java" afterPath="$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/server/mapper/OauthClientMapper.java" />
+      <change beforePath="$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/server/mapper/UserInfoMapper.java" afterPath="$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/server/mapper/UserInfoMapper.java" />
+      <change beforePath="$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/server/service/impl/OauthClientServiceImpl.java" afterPath="$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/server/service/impl/OauthClientServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/server/service/impl/RedisProxyServiceImpl.java" afterPath="$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/server/service/impl/RedisProxyServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/oauth-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/oauth-server/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/oauth-server/src/main/resources/mapper/OauthClientMapper.xml" afterPath="$PROJECT_DIR$/oauth-server/src/main/resources/mapper/OauthClientMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/oauth-server/src/main/resources/mapper/UserInfoMapper.xml" afterPath="$PROJECT_DIR$/oauth-server/src/main/resources/mapper/UserInfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/oauth-server/src/test/java/com/demo/oauth2/OauthserverApplicationTests.java" afterPath="$PROJECT_DIR$/oauth-server/src/test/java/com/demo/oauth2/OauthServerApplicationTests.java" />
       <change beforePath="$PROJECT_DIR$/oauth-web/pom.xml" afterPath="$PROJECT_DIR$/oauth-web/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/oauth-web/src/main/java/com/demo/oauth2/OauthclientApplication.java" afterPath="$PROJECT_DIR$/oauth-web/src/main/java/com/demo/oauth2/OauthWebApplication.java" />
+      <change beforePath="$PROJECT_DIR$/oauth-web/src/main/java/com/demo/oauth2/client/controller/AuthController.java" afterPath="$PROJECT_DIR$/oauth-web/src/main/java/com/demo/oauth2/client/controller/AuthController.java" />
+      <change beforePath="$PROJECT_DIR$/oauth-web/src/main/java/com/demo/oauth2/client/controller/RedirectController.java" afterPath="$PROJECT_DIR$/oauth-web/src/main/java/com/demo/oauth2/client/controller/RedirectController.java" />
+      <change beforePath="$PROJECT_DIR$/oauth-web/src/main/resources/application.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/oauth-web/src/test/java/com/demo/oauth2/OauthclientApplicationTests.java" afterPath="$PROJECT_DIR$/oauth-web/src/test/java/com/demo/oauth2/OauthWebApplicationTests.java" />
+      <change beforePath="$PROJECT_DIR$/springboot-oauth2.iml" afterPath="" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/oauthserver/target/" />
-    <ignored path="$PROJECT_DIR$/oauthclient/target/" />
-    <ignored path="$PROJECT_DIR$/oauthresource/target/" />
-    <ignored path="$PROJECT_DIR$/oauth-common/target/" />
-    <ignored path="$PROJECT_DIR$/oauth-web/target/" />
     <ignored path="$PROJECT_DIR$/oauth-parent/target/" />
+    <ignored path="$PROJECT_DIR$/oauth-common/target/" />
+    <ignored path="$PROJECT_DIR$/oauth-common/oauth-common-rabbitmq/target/" />
+    <ignored path="$PROJECT_DIR$/oauth-common/oauth-common-util/target/" />
+    <ignored path="$PROJECT_DIR$/oauth-common/oauth-common-data/target/" />
     <ignored path="$PROJECT_DIR$/oauth-common/oauth-common-model/target/" />
     <ignored path="$PROJECT_DIR$/oauth-server/target/" />
-    <ignored path="$PROJECT_DIR$/oauth-common/oauth-common-rabbitmq/target/" />
-    <ignored path="$PROJECT_DIR$/oauth-common/oauth-common-data/target/" />
+    <ignored path="$PROJECT_DIR$/oauth-web/target/" />
+    <ignored path="$PROJECT_DIR$/oauthclient/target/" />
+    <ignored path="$PROJECT_DIR$/oauth-common/oauth-common-redis/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,56 +75,49 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
-    <select />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oauth-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3425">
+              <caret line="137" column="31" lean-forward="false" selection-start-line="137" selection-start-column="31" selection-end-line="137" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oauth-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+            <state relative-caret-position="359">
+              <caret line="44" column="20" lean-forward="false" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/oauth-web/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-329">
+              <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oauth-server/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>TOAuth2Client</find>
-      <find>TUserInfo</find>
-      <find>http://192.168.25.143:8901/redirect</find>
-      <find>localhost</find>
-      <find>selectByExample</find>
-      <find>selectByPrimaryKey</find>
-      <find>.xml</find>
-      <find>caching_sha2_password</find>
-      <find>mysql</find>
-      <find>t_oauth2_client</find>
-      <find>t_user_info</find>
-      <find>token</find>
-      <find>login</find>
-      <find>oauthser</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>Oauth2ClientCriteria</replace>
-      <replace>OauthClient</replace>
-      <replace>UserInfo</replace>
-      <replace>oauth_client</replace>
-      <replace>user_info</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,47 +130,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/server/untils/Utils.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/mapper/TOAuth2ClientMapper.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/server/entity/oauthClient.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/server/entity/UserInfoCriteria.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/server/dto/OauthParam.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/server/constant/ErrorConstants.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/server/server/config/Swagger2Configuration.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/OauthserverApplication.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/server/entity/OauthClient.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/server/mapper/UserInfoMapper.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/server/entity/OauthClientCriteria.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/server/entity/UserInfo.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/server/service/impl/UserInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/server/service/impl/RedisProxyServiceImpl.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/server/service/UserInfoService.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/server/service/OauthClientService.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/server/service/RedisProxyService.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/server/untils/ControllerHelper.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/server/server/config/CacheConfig.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/server/server/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/resources/templates/clientoauth.html" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/resources/templates/client.html" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/server/service/impl/OauthClientServiceImpl.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/server/mapper/OauthClientMapper.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/client/interceptor/ControllerInterceptor.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/resources/mapper/UserInfoMapper.xml" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/resources/mapper/OauthClientMapper.xml" />
-        <option value="$PROJECT_DIR$/oauthserver/pom.xml" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/common/interceptor/ControllerInterceptor.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/java/com/demo/oauth2/server/controller/AuthorizeController.java" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/oauthserver/src/main/resources/static/js/loginjs.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/oauth-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/oauth-common/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/oauth-common/oauth-common-model/pom.xml" />
         <option value="$PROJECT_DIR$/oauth-server/pom.xml" />
         <option value="$PROJECT_DIR$/oauth-web/pom.xml" />
+        <option value="$PROJECT_DIR$/oauth-web/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -136,30 +143,30 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="oauth-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="oauth-program" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="oauth-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="oauth-program" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="oauth-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="oauth-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="oauth-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="oauth-program" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
       </expand>
       <select />
@@ -171,8 +178,24 @@
     <option name="width" value="1400" />
     <option name="height" value="990" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>LossyEncoding</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -191,61 +214,108 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
               <item name="oauth-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/oauth-common/pom.xml" />
-    <property name="add_unversioned_files" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth2" value="75" />
-    <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="ignore_missing_gitignore" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.run.dashboard.notification" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.demo.oauth2.exception" />
-      <recent name="com.demo.oauth2.dto" />
-      <recent name="com.demo.oauth2.client.dto" />
-      <recent name="com.demo.oauth2.client.interceptor" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\java\program\springboot-oauth2\oauth-common\oauth-common-model\src\main\java\com\demo\oauth2" />
-      <recent name="D:\java\program\springboot-oauth2\oauth-parent" />
-      <recent name="D:\java\program\springboot-oauth2\oauth-web\src\main\java\com\demo\oauth2\client\controller" />
+      <recent name="D:\java\test-project\oauth-project\oauth-web\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -256,9 +326,8 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.072289154" />
   </component>
-  <component name="RunManager" selected="Spring Boot.OauthserverApplication">
+  <component name="RunManager" selected="Spring Boot.OauthServerApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -300,18 +369,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="springboot_oltu_oauth2" />
-      <envs />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -319,22 +376,16 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration name="OauthclientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="OauthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.oauth2.OauthclientApplication" />
-      <module name="oauthclient" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.oauth2.OauthServerApplication" />
+      <module name="oauth-server" />
       <envs />
     </configuration>
-    <configuration name="OauthresourceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="OauthWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.oauth2.OauthresourceApplication" />
-      <module name="oauthresource" />
-      <envs />
-    </configuration>
-    <configuration name="OauthserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.oauth2.OauthserverApplication" />
-      <module name="oauthserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.oauth2.OauthWebApplication" />
+      <module name="oauth-web" />
       <envs />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -370,10 +421,9 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.OauthserverApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.OauthresourceApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.OauthclientApplication" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.OauthServerApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.OauthWebApplication" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -384,75 +434,54 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3369436c-9f85-48f5-918a-9d28dc5b9939" name="Default" comment="" />
-      <created>1607497792223</created>
+      <changelist id="83db3ae3-6570-4f67-9662-0fbceb6bc925" name="Default" comment="" />
+      <created>1607995723505</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607497792223</updated>
-      <workItem from="1607497795357" duration="7149000" />
-      <workItem from="1607581796384" duration="147000" />
-      <workItem from="1607581995709" duration="60000" />
-      <workItem from="1607673060528" duration="5204000" />
-      <workItem from="1607910848169" duration="4936000" />
-      <workItem from="1607931126103" duration="997000" />
+      <updated>1607995723505</updated>
+      <workItem from="1607995724987" duration="912000" />
+      <workItem from="1607996653201" duration="625000" />
+      <workItem from="1608080663407" duration="1215000" />
+      <workItem from="1608081888057" duration="360000" />
     </task>
-    <task id="LOCAL-00001" summary="完善流程">
-      <created>1607676305372</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1607676305373</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27821000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="3112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17217788" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11060433" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.299886" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43215507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39377683" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28433478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,314 +491,31 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完善流程" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善流程" />
+    <MESSAGE value="优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="4" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/common/config/CacheConfig.java">
+    <entry file="file://$PROJECT_DIR$/oauth-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        <state relative-caret-position="3425">
+          <caret line="137" column="31" lean-forward="false" selection-start-line="137" selection-start-column="31" selection-end-line="137" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/common/config/RedisConfig.java">
+    <entry file="file://$PROJECT_DIR$/oauth-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="1100">
+          <caret line="44" column="20" lean-forward="false" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/server/entity/OauthClient.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/server/service/OauthClientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/server/entity/OauthClientCriteria.java" />
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/exception/ApplicationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/OauthserverApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/resources/mapper/UserInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="2" column="63" lean-forward="false" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/resources/mapper/OauthClientMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="72" lean-forward="false" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/server/mapper/UserInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/common/interceptor/ControllerInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="73" column="39" lean-forward="false" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/common/constant/ErrorConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.authzserver/1.0.2/org.apache.oltu.oauth2.authzserver-1.0.2.jar!/org/apache/oltu/oauth2/common/message/types/ResponseType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.authzserver/1.0.2/org.apache.oltu.oauth2.authzserver-1.0.2.jar!/org/apache/oltu/oauth2/common/OAuth.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.11/tomcat-embed-core-8.5.11.jar!/javax/servlet/http/HttpServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/web-forms.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="467" column="22" lean-forward="false" selection-start-line="467" selection-start-column="22" selection-end-line="467" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/server/service/impl/OauthClientServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.client/1.0.2/org.apache.oltu.oauth2.client-1.0.2.jar!/org/apache/oltu/oauth2/client/request/OAuthClientRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/server/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/resources/static/js/clientjs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.authzserver/1.0.2/org.apache.oltu.oauth2.authzserver-1.0.2.jar!/org/apache/oltu/oauth2/as/request/OAuthAuthzRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/resources/static/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/resources/static/js/loginjs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/common/untils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="227" column="0" lean-forward="false" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/server/controller/AuthorizeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/server/controller/AccessTokenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/resources/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/resources/static/js/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/resources/templates/clientoauth.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-web/mvnw.cmd" />
-    <entry file="file://$PROJECT_DIR$/oauth-web/src/main/java/com/demo/oauth2/client/dto/OauthParam.java" />
-    <entry file="file://$PROJECT_DIR$/oauth-web/src/main/java/com/demo/oauth2/client/controller/AccessTokenController.java" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="908">
-          <caret line="123" column="12" lean-forward="false" selection-start-line="123" selection-start-column="12" selection-end-line="123" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-common/oauth-common.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-875">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/resources/templates/client.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/client/controller/AuthController.java" />
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/client/controller/RedirectController.java" />
-    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/java/com/demo/oauth2/server/mapper/OauthClientMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-common/oauth-common-rabbitmq/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-oauth2.iml">
+    <entry file="file://$PROJECT_DIR$/oauth-web/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -779,13 +525,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/oauth-common/oauth-common-model/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        <state relative-caret-position="225">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oauth-common/oauth-common-data/pom.xml">
+    <entry file="file://$PROJECT_DIR$/oauth-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -793,97 +539,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/oauth-common/oauth-common-model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth-common/oauth-common-model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6129">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/oauth-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        <state relative-caret-position="3425">
+          <caret line="137" column="31" lean-forward="false" selection-start-line="137" selection-start-column="31" selection-end-line="137" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oauth-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        <state relative-caret-position="359">
+          <caret line="44" column="20" lean-forward="false" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>oauth-common-model</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/oauth-web/src/main/resources/application-local.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth-web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-329">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

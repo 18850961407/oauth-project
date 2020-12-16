@@ -1,11 +1,11 @@
 package com.demo.oauth2.server.service.impl;
 
+import com.demo.oauth2.entity.OauthClient;
+import com.demo.oauth2.entity.OauthClientCriteria;
 import com.demo.oauth2.server.mapper.OauthClientMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.demo.oauth2.server.entity.OauthClient;
-import com.demo.oauth2.server.entity.OauthClientCriteria;
 
 import com.demo.oauth2.server.service.OauthClientService;
 import com.demo.oauth2.server.service.RedisProxyService;

@@ -5,10 +5,10 @@ server:
     min-spare-threads: 30
   port: 8080
   servlet:
-    context-path: /oauth-server
+    context-path: /oauth-web
 spring:
   application:
-    name: oauth-server
+    name: oauth-web
   profiles:
     active: @env@
 

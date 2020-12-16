@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/oauth-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oauth-common/oauth-common-data" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oauth-common/oauth-common-model" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oauth-common/oauth-common-rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oauth-common/oauth-common-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oauth-common/oauth-common-util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oauth-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oauth-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oauth-web" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
